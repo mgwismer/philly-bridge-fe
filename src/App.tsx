@@ -1,5 +1,4 @@
 import './App.css'
-import rect1 from './assets/rect1.svg'
 import libertycard from './assets/libertycard.svg'
 
 
