@@ -11,7 +11,7 @@ function App() {
           height: 1100,
           width: 800,
         }}>
-          <h1 style={{opacity: 1}}>WELCOME TO PHILLY PARTY THE GAME</h1>
+          <h1 style={{opacity: 1}}>WELCOME TO PHILLY PARTY BRIDGE</h1>
           <div className="card">
             <h4>Relaxed games for enthusiastic players</h4>
           </div>
