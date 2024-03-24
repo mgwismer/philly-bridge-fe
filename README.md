@@ -31,3 +31,5 @@ export default {
 
 
 URL https://mgwismer.github.io/philly-bridge-fe/
+
+The domain is hosted by wix, Log on and click on account and go to domains. 
