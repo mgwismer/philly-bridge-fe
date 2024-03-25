@@ -13,7 +13,7 @@ function App() {
         }}>
           <h1 style={{opacity: 1}}>WELCOME TO PHILLY PARTY BRIDGE</h1>
           <div className="card">
-            <h4>Relaxed games for enthusiastic players</h4>
+            <h4>Relaxed games for enthusiastic players every saturday</h4>
           </div>
           <div>
             <a href=" https://cloud1-fsar.nfdc.net" target="_blank">
