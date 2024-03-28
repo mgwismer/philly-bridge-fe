@@ -1,5 +1,4 @@
-// import './App.css'
-import libertycard from './assets/libertycard.jpg'
+
 import './styles.scss'
 
 
