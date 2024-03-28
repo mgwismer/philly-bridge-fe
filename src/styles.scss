@@ -1,0 +1,39 @@
+.background-image {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.background-image::before {
+    content: "";
+    background-image: url('assets/libertycard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+.intro-message {
+    display: flex;
+    color: red;
+    margin: 30px;
+}
