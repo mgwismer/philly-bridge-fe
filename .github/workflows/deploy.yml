@@ -51,3 +51,4 @@ jobs:
           publish_dir: ./dist
           enable_jeykyll: true
           cname: www.phillypartybridge.net
+          destination_dir: philly-bridge-fe
