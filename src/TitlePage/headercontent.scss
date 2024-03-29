@@ -1,0 +1,13 @@
+.header-container {
+    display: flex;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+    .header-container-heading {
+        text-align: center;
+    }
+    .header-container-top {
+        animation: fadein 20s infinite;
+        margin: 0;
+    }
+}
