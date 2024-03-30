@@ -49,5 +49,6 @@ jobs:
         with:
           github_token: ${{ secrets.REPO_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages
           cname: www.phillypartybridge.net
           destination_dir: philly-bridge-fe
