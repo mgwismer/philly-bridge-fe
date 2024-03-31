@@ -12,8 +12,8 @@ function App() {
           <div className='container'>
             <HeaderContent/>
             <InfoContent/>
-            <div>
-              <a href=" https://cloud1-fsar.nfdc.net" target="_blank">
+            <div className='members-link'>
+              <a href="https://cloud1-fsar.nfdc.net/">
                 Members login
               </a>
             </div>
