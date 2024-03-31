@@ -4,8 +4,15 @@
 
 .sub-content-container {
     display: flex;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     .info-header {
         margin-right: 20px;
         display: flex;
+    }
+    .info-message {
+        display: flex;
+        width: 80%;
+        align-items: flex-start;
     }
 }
