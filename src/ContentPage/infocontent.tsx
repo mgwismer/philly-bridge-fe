@@ -29,7 +29,7 @@ export const InfoContent: React.FC = () => {
             <div className="sub-content-container">
                 <p className="info-header"> For more info contact </p>
                 <p className="info-message">
-                    bridgeadmins@googlegroups.com
+                    phillypartybridge@gmail.com
                 </p>
             </div>
             </div>
