@@ -3,16 +3,45 @@
 }
 
 .sub-content-container {
-    display: flex;
+//     display: flex;
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    .info-header {
-        margin-right: 20px;
-        display: flex;
-    }
-    .info-message {
-        display: flex;
-        width: 80%;
-        align-items: flex-start;
-    }
+}
+
+.info-header-welcome {
+    margin-right: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    animation: slideinright 8s;
+}
+
+@keyframes slideinright {
+    0% { margin-left:-1400px; }
+    20% { margin-left:-1400px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+
+.info-header-describe {
+    margin-right: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    animation: slideinleft 25s;
+}
+
+@keyframes slideinleft {
+    0% { margin-right:-1400px; }
+    20% { margin-right:-1400px; }
+    35% { margin-right:0px; }
+    100% { margin-right:0px; }
+}
+.info-message {
+//     display: flex;
+//     width: 80%;
+    width: 100%;
+    justify-content: center;
+//     align-items: flex-start;
 }
