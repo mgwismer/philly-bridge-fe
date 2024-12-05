@@ -20,7 +20,6 @@ export const InfoContent: React.FC = () => {
                     <li> An intermediate player interested in meeting new players </li>
                     <li> A duplicate pair interested in practicing without paying card fees </li>
                 </ul>
-                <p className="info-header"> WHERE </p>
                 <p className="info-message">
                 You can join us as a pair or as a single player
                 <br/>
@@ -30,6 +29,7 @@ export const InfoContent: React.FC = () => {
 
             </div>
             <div className="sub-content-container">
+            <p className="info-header"> WHERE </p>
               <p className="info-message">
                 Where: Panera Bread@Presidential Blvd, 3900 City Ave. Philadelphia, PA
                 </p>
