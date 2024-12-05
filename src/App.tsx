@@ -1,5 +1,7 @@
 
 import { InfoContent } from './ContentPage/infocontent'
+import { Announcements } from './Announcements/announcements'
+
 import { HeaderContent } from './TitlePage/HeaderContent'
 import './styles.scss'
 
@@ -11,7 +13,10 @@ function App() {
       <div className='background-image'>
           <div className='container'>
             <HeaderContent/>
-            <InfoContent/>
+            <div className='main-containers'>
+                <InfoContent/>
+                <Announcements/>
+            </div>
             <div className='members-link'>
               <a href="https://cloud1-fsar.nfdc.net/acbl/acbl1.php?ppb=1">
                 Members login
