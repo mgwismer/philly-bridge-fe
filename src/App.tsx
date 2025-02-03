@@ -18,7 +18,7 @@ function App() {
                 <Announcements/>
             </div>
             <div className='members-link'>
-              <a href="https://cloud1-fsar.nfdc.net/acbl/acbl1.php?ppb=1">
+              <a href="https://delta.fsar.com/acbl/acbl1.php">
                 Members login
               </a>
             </div>

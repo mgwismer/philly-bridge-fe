@@ -8,17 +8,13 @@ export const Announcements: React.FC = () => {
       📣 📣 📣 📣 📣 📣 📣 📣 📣 📣 📣
       <h2>ANNOUNCEMENTS</h2>
       <div>
-        Congratulations to our latest tournament winners
+        February 8, No Party Bridge! Duplicate Tournament
       </div>
       <div className='announcement-text'>
-          <div>JJ and Lori</div>
-          <div> Ken and Mark</div>
+            For more info send an email to phillypartybridge@gmail.com
        </div>
 
-       <div className='announcement-text'>
-        🎄☃️🎄☃️🎄☃️🎄☃️🎄☃️🎄☃️🎄
-        No game at Panera on December 14. Holiday Party!!
-       </div>
+
     </div>
     )
 }
